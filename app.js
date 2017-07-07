@@ -9,7 +9,8 @@ $(function() {
            data: $("#formData").serialize(),
            success: function(data)
            {
-               alert(data);
+               $("#formData")[0].reset();
+               window.alert("Thank You!");
            }
          });
 
