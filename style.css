@@ -1,0 +1,49 @@
+body {
+  font-family: 'Special Elite', cursive;
+}
+
+label,
+button {
+  font-size: 20px;
+}
+
+.container {
+  width: 900px;
+  background-color: rgb(152, 181, 201);
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #888888;
+  margin-top: 30px;
+}
+
+.row {
+  padding: 5px;
+}
+
+#submit {
+  margin-bottom: 5px;
+}
+
+
+/* Media Queries */
+@media only screen and (max-width: 991px) {
+  .container {
+    width: 525px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .container {
+    width: 325px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .container {
+    width: 225px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+}
